@@ -1,0 +1,14 @@
+module Base
+{
+    model SNK
+    {
+        mesh = LNV_X,
+        texture = WorldItems/LNV_Tex,
+    }
+    model SNK_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/LNV_ReZero_Closed_Tex,
+        scale = 0.4,
+    }
+}

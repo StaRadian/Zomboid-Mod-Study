@@ -1,0 +1,21 @@
+module LNV
+{
+    imports
+    {
+        Base
+    }
+
+    item LightNovel
+    {
+        DisplayCategory     =   Literature,
+        Weight	            =   0.2,
+        Type	            =   Literature,
+        DisplayName	        =   Light Novel,
+        ReplaceOnUse	    =   LightNovel,
+        StressChange	    =   -99,
+        Icon	            =	LightNovel,
+        BoredomChange	    =   -99,
+        StaticModel         =   SNK,
+        WorldStaticModel    =   SNK_Ground,
+    }
+}
